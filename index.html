@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Make Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+    
+    <section id="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Make Dev</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRACTICE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">COMPETE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTESTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DICUSS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LOGIN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> <i class="fa fa-user-circle-o"></i> SIGNUP</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+
+    <!------------------ Landing Banner ---------------->
+
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center" id="pic">
+                    <img src="images/image.svg" class="img-fluid" alt="Landing image">
+                </div>
+                <div class="col-md-6">
+                    <p class=" promo-title text-center">LET START CODING</p>
+                    <p id="sub">Passion in solving Real Time problems With Coding Your Best , Then You have To Here .. Code - Win - Prizes</p>
+                    <div class="text-center">
+                        <button id="code" type="button" class="btn btn-primary font-weight-bold">START CODING</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+        <!------------------ Services of Make Dev---------------->
+
+
+        <section id="services">
+            <div class="container">
+                <h3 class="title text-center font-weight-bold">ALL CONTESTS</h3>
+                <div class="row text-center">
+                    <div class="col-md-4 services">
+                        <img src="images/image1.svg" alt="image1" class="service-img">
+                        <h4 id="data">Daily Contests</h4>
+                        <p id="content">We Will Conduct Daily Contests at 11:00 Am - 12:30 PM. Contests ScoreBoard & Results are Updated at 4:30 PM on that Day</p>
+                    </div>
+                    <div class="col-md-4 services">
+                        <img src="images/image.svg" alt="image1" class="service-img">
+                        <h4 id="data">Weekly Contests</h4>
+                        <p id="content">We Will Conduct Daily Contests at 11:00 Am - 12:30 PM. Contests ScoreBoard & Results are Updated at 4:30 PM on that Day</p>
+                    </div>
+                    <div class="col-md-4 services">
+                        <img src="images/image2.svg" alt="image1" class="service-img">
+                        <h4 id="data">Monthly Contests</h4>
+                        <p id="content">We Will Conduct Daily Contests at 11:00 Am - 12:30 PM. Contests ScoreBoard & Results are Updated at 4:30 PM on that Day</p>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button id="contest_play" type="button" class="btn btn-primary font-weight-bold">ENTER CONTEST</button>
+                </div>
+
+            </div>
+        </section>
+
+
+        
+    <!------------------ CONTACT US ---------------->
+
+        <section id="contact">
+            <div class="container">
+                <h3 class="title text-center font-weight-bold">CONTACT US</h3>
+                <div class="row py-4">
+                    <div class="col-md-6 text-center" id="pic">
+                        <img src="images/image3.svg" alt="contact-image" class="contact-img">
+                    </div>
+                    <div class="col-md-6 text-center py-4">
+                        <div class="contact-details text-center py-4">
+                            <p id="info"><i class="fa fa-map-marker"></i>Make Dev , PULIVENDULA</p>
+                            <p id="info1"><i class="fa fa-phone"></i>+91 998998989</p>
+                            <p id="info2"><i class="fa fa-envelope-o"></i>Makedev@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+
+        <p class="copy-right text-center font-weight-bold">All Rights Reserved &copy;  Make Dev</p>
+
+
+
+        <script>
+        
+        ScrollReveal().reveal('#pic', { delay: 500 });
+        ScrollReveal().reveal('.promo-title', { delay: 1000 });
+        ScrollReveal().reveal('#sub', { delay: 1400 });
+        ScrollReveal().reveal('#code', { delay: 2000 });
+
+        ScrollReveal().reveal('#services', { delay: 500 });
+        ScrollReveal().reveal('#data', { delay: 500 });
+        ScrollReveal().reveal('#content', { delay: 1000 });
+        ScrollReveal().reveal('#contest_play', { delay: 1200 });
+
+         ScrollReveal().reveal('#info', { delay: 500 });
+         ScrollReveal().reveal('#info1', { delay: 800 });
+         ScrollReveal().reveal('#info2', { delay: 1000 });
+
+        </script>
+
+</body>
+</html>
